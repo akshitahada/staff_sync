@@ -1,0 +1,1177 @@
+{
+  "users": [
+    {
+      "_id": "usr_sarah",
+      "name": "Sarah Jenkins",
+      "email": "hr@staffsync.io",
+      "passwordHash": "$2b$10$9otuuptXjhEE316IyIYCw.7lg3BRQ4UComWB6LZNhZdtzImANZQKi",
+      "role": "hr",
+      "employeeId": "emp_sarah",
+      "isActive": true,
+      "lastLoginAt": "2026-10-18T18:53:30.527Z",
+      "createdAt": "2023-01-15T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "usr_marcus",
+      "name": "Marcus Vance",
+      "email": "marcus.vance@staffsync.io",
+      "passwordHash": "$2b$10$9otuuptXjhEE316IyIYCw.7lg3BRQ4UComWB6LZNhZdtzImANZQKi",
+      "role": "manager",
+      "employeeId": "emp_marcus",
+      "isActive": true,
+      "lastLoginAt": "2026-10-18T18:53:05.778Z",
+      "createdAt": "2023-03-01T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "usr_elena",
+      "name": "Elena Rostova",
+      "email": "elena.rostova@staffsync.io",
+      "passwordHash": "$2b$10$9otuuptXjhEE316IyIYCw.7lg3BRQ4UComWB6LZNhZdtzImANZQKi",
+      "role": "manager",
+      "employeeId": "emp_elena",
+      "isActive": true,
+      "lastLoginAt": "2026-10-18T18:53:05.778Z",
+      "createdAt": "2023-05-10T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "usr_alex",
+      "name": "Alex Rivera",
+      "email": "alex.rivera@staffsync.io",
+      "passwordHash": "$2b$10$9otuuptXjhEE316IyIYCw.7lg3BRQ4UComWB6LZNhZdtzImANZQKi",
+      "role": "employee",
+      "employeeId": "emp_alex",
+      "isActive": true,
+      "lastLoginAt": "2026-10-18T18:53:05.778Z",
+      "createdAt": "2023-08-01T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "usr_priya",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@staffsync.io",
+      "passwordHash": "$2b$10$9otuuptXjhEE316IyIYCw.7lg3BRQ4UComWB6LZNhZdtzImANZQKi",
+      "role": "employee",
+      "employeeId": "emp_priya",
+      "isActive": true,
+      "createdAt": "2023-09-15T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "usr_jordan",
+      "name": "Jordan Lee",
+      "email": "jordan.lee@staffsync.io",
+      "passwordHash": "$2b$10$9otuuptXjhEE316IyIYCw.7lg3BRQ4UComWB6LZNhZdtzImANZQKi",
+      "role": "employee",
+      "employeeId": "emp_jordan",
+      "isActive": true,
+      "createdAt": "2023-11-01T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "usr_chloe",
+      "name": "Chloe Dupont",
+      "email": "chloe.dupont@staffsync.io",
+      "passwordHash": "$2b$10$9otuuptXjhEE316IyIYCw.7lg3BRQ4UComWB6LZNhZdtzImANZQKi",
+      "role": "employee",
+      "employeeId": "emp_chloe",
+      "isActive": true,
+      "createdAt": "2024-02-01T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "usr_dev",
+      "name": "Dev Patel",
+      "email": "dev.patel@staffsync.io",
+      "passwordHash": "$2b$10$9otuuptXjhEE316IyIYCw.7lg3BRQ4UComWB6LZNhZdtzImANZQKi",
+      "role": "employee",
+      "employeeId": "emp_dev",
+      "isActive": true,
+      "createdAt": "2024-03-10T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    }
+  ],
+  "employees": [
+    {
+      "_id": "emp_sarah",
+      "employeeCode": "EMP-001",
+      "userId": "usr_sarah",
+      "firstName": "Sarah",
+      "lastName": "Jenkins",
+      "email": "hr@staffsync.io",
+      "phone": "+1 (555) 234-5678",
+      "address": "742 Evergreen Terrace, San Francisco, CA 94107",
+      "departmentId": "dept_hr",
+      "jobTitle": "Head of People & Culture",
+      "employmentType": "Full-time",
+      "joiningDate": "2023-01-15",
+      "employmentStatus": "Active",
+      "profileImage": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "salary": 135000,
+      "createdAt": "2023-01-15T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "emp_marcus",
+      "employeeCode": "EMP-002",
+      "userId": "usr_marcus",
+      "firstName": "Marcus",
+      "lastName": "Vance",
+      "email": "marcus.vance@staffsync.io",
+      "phone": "+1 (555) 345-6789",
+      "address": "1088 Howard Street, San Francisco, CA 94103",
+      "departmentId": "dept_eng",
+      "jobTitle": "Engineering Manager",
+      "employmentType": "Full-time",
+      "joiningDate": "2023-03-01",
+      "employmentStatus": "Active",
+      "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "salary": 155000,
+      "createdAt": "2023-03-01T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "emp_elena",
+      "employeeCode": "EMP-003",
+      "userId": "usr_elena",
+      "firstName": "Elena",
+      "lastName": "Rostova",
+      "email": "elena.rostova@staffsync.io",
+      "phone": "+1 (555) 456-7890",
+      "address": "450 Mission Street, San Francisco, CA 94105",
+      "departmentId": "dept_mkt",
+      "jobTitle": "Marketing Director",
+      "employmentType": "Full-time",
+      "joiningDate": "2023-05-10",
+      "employmentStatus": "Active",
+      "profileImage": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "salary": 140000,
+      "createdAt": "2023-05-10T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "emp_alex",
+      "employeeCode": "EMP-101",
+      "userId": "usr_alex",
+      "firstName": "Alex",
+      "lastName": "Rivera",
+      "email": "alex.rivera@staffsync.io",
+      "phone": "+1 (555) 567-8901",
+      "address": "320 Folsom Street, San Francisco, CA 94105",
+      "departmentId": "dept_eng",
+      "managerId": "emp_marcus",
+      "jobTitle": "Senior Frontend Engineer",
+      "employmentType": "Full-time",
+      "joiningDate": "2023-08-01",
+      "employmentStatus": "Active",
+      "profileImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "salary": 125000,
+      "createdAt": "2023-08-01T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "emp_priya",
+      "employeeCode": "EMP-102",
+      "userId": "usr_priya",
+      "firstName": "Priya",
+      "lastName": "Sharma",
+      "email": "priya.sharma@staffsync.io",
+      "phone": "+1 (555) 678-9012",
+      "address": "210 King Street, San Francisco, CA 94107",
+      "departmentId": "dept_eng",
+      "managerId": "emp_marcus",
+      "jobTitle": "Backend Systems Engineer",
+      "employmentType": "Full-time",
+      "joiningDate": "2023-09-15",
+      "employmentStatus": "Active",
+      "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "salary": 128000,
+      "createdAt": "2023-09-15T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "emp_jordan",
+      "employeeCode": "EMP-103",
+      "userId": "usr_jordan",
+      "firstName": "Jordan",
+      "lastName": "Lee",
+      "email": "jordan.lee@staffsync.io",
+      "phone": "+1 (555) 789-0123",
+      "address": "890 Market Street, San Francisco, CA 94102",
+      "departmentId": "dept_mkt",
+      "managerId": "emp_elena",
+      "jobTitle": "Content Strategist",
+      "employmentType": "Full-time",
+      "joiningDate": "2023-11-01",
+      "employmentStatus": "Active",
+      "profileImage": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+      "salary": 92000,
+      "createdAt": "2023-11-01T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "emp_chloe",
+      "employeeCode": "EMP-104",
+      "userId": "usr_chloe",
+      "firstName": "Chloe",
+      "lastName": "Dupont",
+      "email": "chloe.dupont@staffsync.io",
+      "phone": "+1 (555) 890-1234",
+      "address": "600 Townsend Street, San Francisco, CA 94103",
+      "departmentId": "dept_des",
+      "managerId": "emp_marcus",
+      "jobTitle": "UI/UX Designer",
+      "employmentType": "Full-time",
+      "joiningDate": "2024-02-01",
+      "employmentStatus": "Active",
+      "profileImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "salary": 110000,
+      "createdAt": "2024-02-01T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "emp_dev",
+      "employeeCode": "EMP-105",
+      "userId": "usr_dev",
+      "firstName": "Dev",
+      "lastName": "Patel",
+      "email": "dev.patel@staffsync.io",
+      "phone": "+1 (555) 901-2345",
+      "address": "150 4th Street, San Francisco, CA 94103",
+      "departmentId": "dept_mkt",
+      "managerId": "emp_elena",
+      "jobTitle": "Growth Marketing Specialist",
+      "employmentType": "Contract",
+      "joiningDate": "2024-03-10",
+      "employmentStatus": "Active",
+      "profileImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80",
+      "salary": 85000,
+      "createdAt": "2024-03-10T09:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    }
+  ],
+  "departments": [
+    {
+      "_id": "dept_eng",
+      "name": "Engineering",
+      "code": "ENG",
+      "description": "Core software development, infrastructure, and platform systems.",
+      "managerId": "emp_marcus",
+      "isActive": true,
+      "createdAt": "2025-10-18T18:53:05.778Z",
+      "updatedAt": "2025-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "dept_mkt",
+      "name": "Marketing & Growth",
+      "code": "MKT",
+      "description": "Brand awareness, digital growth, market research, and communication.",
+      "managerId": "emp_elena",
+      "isActive": true,
+      "createdAt": "2025-10-18T18:53:05.778Z",
+      "updatedAt": "2025-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "dept_hr",
+      "name": "Human Resources",
+      "code": "HR",
+      "description": "People operations, recruitment, talent development, and organizational policy.",
+      "managerId": "emp_sarah",
+      "isActive": true,
+      "createdAt": "2025-10-18T18:53:05.778Z",
+      "updatedAt": "2025-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "dept_des",
+      "name": "Product & Design",
+      "code": "DES",
+      "description": "User experience research, UI design, prototyping, and product strategy.",
+      "managerId": "emp_marcus",
+      "isActive": true,
+      "createdAt": "2025-12-22T18:53:05.778Z",
+      "updatedAt": "2025-12-22T18:53:05.778Z"
+    }
+  ],
+  "attendances": [
+    {
+      "_id": "att_today_alex",
+      "employeeId": "emp_alex",
+      "attendanceDate": "2026-10-18",
+      "checkIn": "2026-10-18T08:55:00.000Z",
+      "status": "Present",
+      "workedMinutes": 180,
+      "source": "Web Self-Service",
+      "createdAt": "2026-10-18T08:55:00.000Z",
+      "updatedAt": "2026-10-18T08:55:00.000Z"
+    },
+    {
+      "_id": "att_today_marcus",
+      "employeeId": "emp_marcus",
+      "attendanceDate": "2026-10-18",
+      "checkIn": "2026-10-18T08:55:00.000Z",
+      "status": "Present",
+      "workedMinutes": 200,
+      "source": "Web Self-Service",
+      "createdAt": "2026-10-18T08:55:00.000Z",
+      "updatedAt": "2026-10-18T08:55:00.000Z"
+    },
+    {
+      "_id": "att_today_sarah",
+      "employeeId": "emp_sarah",
+      "attendanceDate": "2026-10-18",
+      "checkIn": "2026-10-18T09:05:00.000Z",
+      "status": "Present",
+      "workedMinutes": 190,
+      "source": "Web Self-Service",
+      "createdAt": "2026-10-18T09:05:00.000Z",
+      "updatedAt": "2026-10-18T09:05:00.000Z"
+    },
+    {
+      "_id": "att_today_priya",
+      "employeeId": "emp_priya",
+      "attendanceDate": "2026-10-18",
+      "checkIn": "2026-10-18T09:45:00.000Z",
+      "status": "Late",
+      "workedMinutes": 140,
+      "source": "Web Self-Service",
+      "createdAt": "2026-10-18T09:45:00.000Z",
+      "updatedAt": "2026-10-18T09:45:00.000Z"
+    },
+    {
+      "_id": "att_today_chloe",
+      "employeeId": "emp_chloe",
+      "attendanceDate": "2026-10-18",
+      "checkIn": "2026-10-18T09:05:00.000Z",
+      "status": "Present",
+      "workedMinutes": 180,
+      "source": "Web Self-Service",
+      "createdAt": "2026-10-18T09:05:00.000Z",
+      "updatedAt": "2026-10-18T09:05:00.000Z"
+    },
+    {
+      "_id": "att_yest_alex",
+      "employeeId": "emp_alex",
+      "attendanceDate": "2026-10-17",
+      "checkIn": "2026-10-17T09:00:00.000Z",
+      "checkOut": "2026-10-17T17:30:00.000Z",
+      "status": "Present",
+      "workedMinutes": 510,
+      "source": "Web Self-Service",
+      "createdAt": "2026-10-17T09:00:00.000Z",
+      "updatedAt": "2026-10-17T17:30:00.000Z"
+    },
+    {
+      "_id": "att_yest_priya",
+      "employeeId": "emp_priya",
+      "attendanceDate": "2026-10-17",
+      "checkIn": "2026-10-17T08:50:00.000Z",
+      "checkOut": "2026-10-17T17:00:00.000Z",
+      "status": "Present",
+      "workedMinutes": 490,
+      "source": "Web Self-Service",
+      "createdAt": "2026-10-17T08:50:00.000Z",
+      "updatedAt": "2026-10-17T17:00:00.000Z"
+    },
+    {
+      "_id": "att_yest_marcus",
+      "employeeId": "emp_marcus",
+      "attendanceDate": "2026-10-17",
+      "checkIn": "2026-10-17T08:45:00.000Z",
+      "checkOut": "2026-10-17T18:00:00.000Z",
+      "status": "Present",
+      "workedMinutes": 555,
+      "source": "Web Self-Service",
+      "createdAt": "2026-10-17T08:45:00.000Z",
+      "updatedAt": "2026-10-17T18:00:00.000Z"
+    },
+    {
+      "_id": "att_yest_jordan",
+      "employeeId": "emp_jordan",
+      "attendanceDate": "2026-10-17",
+      "checkIn": "2026-10-17T09:15:00.000Z",
+      "checkOut": "2026-10-17T13:15:00.000Z",
+      "status": "Half Day",
+      "workedMinutes": 240,
+      "source": "Web Self-Service",
+      "createdAt": "2026-10-17T09:15:00.000Z",
+      "updatedAt": "2026-10-17T13:15:00.000Z"
+    },
+    {
+      "_id": "att_2d_alex",
+      "employeeId": "emp_alex",
+      "attendanceDate": "2026-10-16",
+      "checkIn": "2026-10-16T09:00:00.000Z",
+      "checkOut": "2026-10-16T17:15:00.000Z",
+      "status": "Present",
+      "workedMinutes": 495,
+      "source": "Manual HR Correction",
+      "correctionReason": "Employee badge scanner misread on entry, confirmed by manager log.",
+      "correctedBy": "usr_sarah",
+      "createdAt": "2026-10-16T09:00:00.000Z",
+      "updatedAt": "2026-10-16T18:00:00.000Z"
+    },
+    {
+      "_id": "att_2d_priya",
+      "employeeId": "emp_priya",
+      "attendanceDate": "2026-10-16",
+      "checkIn": "2026-10-16T09:05:00.000Z",
+      "checkOut": "2026-10-16T17:35:00.000Z",
+      "status": "Present",
+      "workedMinutes": 510,
+      "source": "Web Self-Service",
+      "createdAt": "2026-10-16T09:05:00.000Z",
+      "updatedAt": "2026-10-16T17:35:00.000Z"
+    }
+  ],
+  "leaves": [
+    {
+      "_id": "leave_alex_1",
+      "employeeId": "emp_alex",
+      "leaveTypeId": "casual",
+      "leaveTypeName": "Casual Leave",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-23",
+      "duration": 1,
+      "reason": "Attending family celebration and personal errands.",
+      "status": "Pending Manager Approval",
+      "approvalHistory": [
+        {
+          "stage": "Manager",
+          "actorId": "usr_alex",
+          "actorName": "Alex Rivera",
+          "action": "Submitted",
+          "comment": "Submitted leave request.",
+          "timestamp": "2026-10-18T17:53:05.779Z"
+        }
+      ],
+      "createdAt": "2026-10-18T17:53:05.779Z",
+      "updatedAt": "2026-10-18T17:53:05.779Z"
+    },
+    {
+      "_id": "leave_chloe_1",
+      "employeeId": "emp_chloe",
+      "leaveTypeId": "annual",
+      "leaveTypeName": "Earned / Annual Leave",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-02",
+      "duration": 2,
+      "reason": "Short vacation trip to Yosemite National Park.",
+      "status": "Pending HR Approval",
+      "managerReviewerId": "usr_marcus",
+      "approvalHistory": [
+        {
+          "stage": "Manager",
+          "actorId": "usr_chloe",
+          "actorName": "Chloe Dupont",
+          "action": "Submitted",
+          "comment": "Submitted annual leave request.",
+          "timestamp": "2026-10-17T18:53:05.779Z"
+        },
+        {
+          "stage": "Manager",
+          "actorId": "usr_marcus",
+          "actorName": "Marcus Vance",
+          "action": "Approved",
+          "comment": "Design sprint deliverables are on schedule, approved from engineering/product team perspective.",
+          "timestamp": "2026-10-18T06:53:05.779Z"
+        }
+      ],
+      "createdAt": "2026-10-17T18:53:05.779Z",
+      "updatedAt": "2026-10-18T06:53:05.779Z"
+    },
+    {
+      "_id": "leave_priya_1",
+      "employeeId": "emp_priya",
+      "leaveTypeId": "sick",
+      "leaveTypeName": "Sick Leave",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-16",
+      "duration": 2,
+      "reason": "Fever and viral infection, doctor prescribed rest.",
+      "status": "Approved",
+      "managerReviewerId": "usr_marcus",
+      "hrReviewerId": "usr_sarah",
+      "approvalHistory": [
+        {
+          "stage": "Manager",
+          "actorId": "usr_priya",
+          "actorName": "Priya Sharma",
+          "action": "Submitted",
+          "timestamp": "2026-10-14T18:53:05.779Z"
+        },
+        {
+          "stage": "Manager",
+          "actorId": "usr_marcus",
+          "actorName": "Marcus Vance",
+          "action": "Approved",
+          "comment": "Get well soon Priya.",
+          "timestamp": "2026-10-14T19:53:05.779Z"
+        },
+        {
+          "stage": "HR",
+          "actorId": "usr_sarah",
+          "actorName": "Sarah Jenkins",
+          "action": "Approved",
+          "comment": "Approved under regular sick policy.",
+          "timestamp": "2026-10-14T20:53:05.779Z"
+        }
+      ],
+      "createdAt": "2026-10-14T18:53:05.779Z",
+      "updatedAt": "2026-10-14T20:53:05.779Z"
+    }
+  ],
+  "leaveBalances": [
+    {
+      "_id": "lb_emp_sarah_casual",
+      "employeeId": "emp_sarah",
+      "leaveTypeId": "casual",
+      "leaveTypeName": "Casual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 12,
+      "usedDays": 1,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_sarah_sick",
+      "employeeId": "emp_sarah",
+      "leaveTypeId": "sick",
+      "leaveTypeName": "Sick Leave",
+      "periodYear": 2026,
+      "allocatedDays": 10,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_sarah_annual",
+      "employeeId": "emp_sarah",
+      "leaveTypeId": "annual",
+      "leaveTypeName": "Earned / Annual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 18,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_sarah_unpaid",
+      "employeeId": "emp_sarah",
+      "leaveTypeId": "unpaid",
+      "leaveTypeName": "Unpaid Leave",
+      "periodYear": 2026,
+      "allocatedDays": 30,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_marcus_casual",
+      "employeeId": "emp_marcus",
+      "leaveTypeId": "casual",
+      "leaveTypeName": "Casual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 12,
+      "usedDays": 1,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_marcus_sick",
+      "employeeId": "emp_marcus",
+      "leaveTypeId": "sick",
+      "leaveTypeName": "Sick Leave",
+      "periodYear": 2026,
+      "allocatedDays": 10,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_marcus_annual",
+      "employeeId": "emp_marcus",
+      "leaveTypeId": "annual",
+      "leaveTypeName": "Earned / Annual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 18,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_marcus_unpaid",
+      "employeeId": "emp_marcus",
+      "leaveTypeId": "unpaid",
+      "leaveTypeName": "Unpaid Leave",
+      "periodYear": 2026,
+      "allocatedDays": 30,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_elena_casual",
+      "employeeId": "emp_elena",
+      "leaveTypeId": "casual",
+      "leaveTypeName": "Casual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 12,
+      "usedDays": 1,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_elena_sick",
+      "employeeId": "emp_elena",
+      "leaveTypeId": "sick",
+      "leaveTypeName": "Sick Leave",
+      "periodYear": 2026,
+      "allocatedDays": 10,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_elena_annual",
+      "employeeId": "emp_elena",
+      "leaveTypeId": "annual",
+      "leaveTypeName": "Earned / Annual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 18,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_elena_unpaid",
+      "employeeId": "emp_elena",
+      "leaveTypeId": "unpaid",
+      "leaveTypeName": "Unpaid Leave",
+      "periodYear": 2026,
+      "allocatedDays": 30,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_alex_casual",
+      "employeeId": "emp_alex",
+      "leaveTypeId": "casual",
+      "leaveTypeName": "Casual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 12,
+      "usedDays": 2,
+      "pendingDays": 1,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_alex_sick",
+      "employeeId": "emp_alex",
+      "leaveTypeId": "sick",
+      "leaveTypeName": "Sick Leave",
+      "periodYear": 2026,
+      "allocatedDays": 10,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_alex_annual",
+      "employeeId": "emp_alex",
+      "leaveTypeId": "annual",
+      "leaveTypeName": "Earned / Annual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 18,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_alex_unpaid",
+      "employeeId": "emp_alex",
+      "leaveTypeId": "unpaid",
+      "leaveTypeName": "Unpaid Leave",
+      "periodYear": 2026,
+      "allocatedDays": 30,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_priya_casual",
+      "employeeId": "emp_priya",
+      "leaveTypeId": "casual",
+      "leaveTypeName": "Casual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 12,
+      "usedDays": 1,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_priya_sick",
+      "employeeId": "emp_priya",
+      "leaveTypeId": "sick",
+      "leaveTypeName": "Sick Leave",
+      "periodYear": 2026,
+      "allocatedDays": 10,
+      "usedDays": 2,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_priya_annual",
+      "employeeId": "emp_priya",
+      "leaveTypeId": "annual",
+      "leaveTypeName": "Earned / Annual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 18,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_priya_unpaid",
+      "employeeId": "emp_priya",
+      "leaveTypeId": "unpaid",
+      "leaveTypeName": "Unpaid Leave",
+      "periodYear": 2026,
+      "allocatedDays": 30,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_jordan_casual",
+      "employeeId": "emp_jordan",
+      "leaveTypeId": "casual",
+      "leaveTypeName": "Casual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 12,
+      "usedDays": 1,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_jordan_sick",
+      "employeeId": "emp_jordan",
+      "leaveTypeId": "sick",
+      "leaveTypeName": "Sick Leave",
+      "periodYear": 2026,
+      "allocatedDays": 10,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_jordan_annual",
+      "employeeId": "emp_jordan",
+      "leaveTypeId": "annual",
+      "leaveTypeName": "Earned / Annual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 18,
+      "usedDays": 3,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_jordan_unpaid",
+      "employeeId": "emp_jordan",
+      "leaveTypeId": "unpaid",
+      "leaveTypeName": "Unpaid Leave",
+      "periodYear": 2026,
+      "allocatedDays": 30,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_chloe_casual",
+      "employeeId": "emp_chloe",
+      "leaveTypeId": "casual",
+      "leaveTypeName": "Casual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 12,
+      "usedDays": 1,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_chloe_sick",
+      "employeeId": "emp_chloe",
+      "leaveTypeId": "sick",
+      "leaveTypeName": "Sick Leave",
+      "periodYear": 2026,
+      "allocatedDays": 10,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_chloe_annual",
+      "employeeId": "emp_chloe",
+      "leaveTypeId": "annual",
+      "leaveTypeName": "Earned / Annual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 18,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_chloe_unpaid",
+      "employeeId": "emp_chloe",
+      "leaveTypeId": "unpaid",
+      "leaveTypeName": "Unpaid Leave",
+      "periodYear": 2026,
+      "allocatedDays": 30,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_dev_casual",
+      "employeeId": "emp_dev",
+      "leaveTypeId": "casual",
+      "leaveTypeName": "Casual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 12,
+      "usedDays": 1,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_dev_sick",
+      "employeeId": "emp_dev",
+      "leaveTypeId": "sick",
+      "leaveTypeName": "Sick Leave",
+      "periodYear": 2026,
+      "allocatedDays": 10,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_dev_annual",
+      "employeeId": "emp_dev",
+      "leaveTypeId": "annual",
+      "leaveTypeName": "Earned / Annual Leave",
+      "periodYear": 2026,
+      "allocatedDays": 18,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "lb_emp_dev_unpaid",
+      "employeeId": "emp_dev",
+      "leaveTypeId": "unpaid",
+      "leaveTypeName": "Unpaid Leave",
+      "periodYear": 2026,
+      "allocatedDays": 30,
+      "usedDays": 0,
+      "pendingDays": 0,
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    }
+  ],
+  "announcements": [
+    {
+      "_id": "ann_1",
+      "title": "All-Hands Company Meeting & Q4 Strategy Kickoff",
+      "content": "Join us this Thursday at 2:00 PM PST in the Town Hall room or via Google Meet for our quarterly retrospective, executive updates, and roadmap announcements. Refreshments will be served at the headquarters!",
+      "category": "Company News",
+      "authorId": "usr_sarah",
+      "authorName": "Sarah Jenkins",
+      "authorRole": "Head of People & Culture",
+      "targetAudience": "All",
+      "priority": "High",
+      "publishedAt": "2026-10-16T18:53:05.779Z",
+      "status": "Published",
+      "createdAt": "2026-10-16T18:53:05.779Z",
+      "updatedAt": "2026-10-16T18:53:05.779Z"
+    },
+    {
+      "_id": "ann_2",
+      "title": "Updated Health & Wellness Benefits Package for 2026",
+      "content": "We are thrilled to expand our health coverage! Starting this quarter, every employee receives an additional $750 annual mental health and wellness stipend, along with flexible gym membership coverage. Please check your HR Portal under Benefits.",
+      "category": "Policy Changes",
+      "authorId": "usr_sarah",
+      "authorName": "Sarah Jenkins",
+      "authorRole": "Head of People & Culture",
+      "targetAudience": "All",
+      "priority": "Medium",
+      "publishedAt": "2026-10-13T18:53:05.779Z",
+      "status": "Published",
+      "createdAt": "2026-10-13T18:53:05.779Z",
+      "updatedAt": "2026-10-13T18:53:05.779Z"
+    },
+    {
+      "_id": "ann_3",
+      "title": "Engineering Architecture Review: React 19 & Cloud Migration",
+      "content": "Engineering & Design team members: Marcus will be hosting a special deep-dive workshop on upcoming architectural shifts and CI/CD pipelines. Please review the design document before Wednesday.",
+      "category": "Training",
+      "authorId": "usr_marcus",
+      "authorName": "Marcus Vance",
+      "authorRole": "Engineering Manager",
+      "targetAudience": "Department",
+      "departmentIds": [
+        "dept_eng",
+        "dept_des"
+      ],
+      "priority": "Medium",
+      "publishedAt": "2026-10-17T18:53:05.779Z",
+      "status": "Published",
+      "createdAt": "2026-10-17T18:53:05.779Z",
+      "updatedAt": "2026-10-17T18:53:05.779Z"
+    }
+  ],
+  "trainings": [
+    {
+      "_id": "trn_1",
+      "title": "Enterprise Cybersecurity & Data Privacy Compliance 2026",
+      "description": "Mandatory annual training covering zero-trust security standards, phishing detection, role-based database access, and SOC-2 / GDPR compliance protocols.",
+      "trainer": "CipherGuard Academy",
+      "startDate": "2026-10-01",
+      "endDate": "2026-11-15",
+      "deliveryMethod": "Online",
+      "meetingUrl": "https://learning.staffsync.io/security-2026",
+      "createdBy": "usr_sarah",
+      "createdByName": "Sarah Jenkins",
+      "departmentIds": [
+        "dept_eng",
+        "dept_mkt",
+        "dept_hr",
+        "dept_des"
+      ],
+      "status": "In Progress",
+      "participants": [
+        {
+          "employeeId": "emp_alex",
+          "employeeName": "Alex Rivera",
+          "departmentName": "Engineering",
+          "status": "Completed",
+          "progressPercent": 100,
+          "completionDate": "2026-10-10"
+        },
+        {
+          "employeeId": "emp_priya",
+          "employeeName": "Priya Sharma",
+          "departmentName": "Engineering",
+          "status": "In Progress",
+          "progressPercent": 65
+        },
+        {
+          "employeeId": "emp_jordan",
+          "employeeName": "Jordan Lee",
+          "departmentName": "Marketing & Growth",
+          "status": "In Progress",
+          "progressPercent": 40
+        },
+        {
+          "employeeId": "emp_chloe",
+          "employeeName": "Chloe Dupont",
+          "departmentName": "Product & Design",
+          "status": "Not Started",
+          "progressPercent": 0
+        },
+        {
+          "employeeId": "emp_dev",
+          "employeeName": "Dev Patel",
+          "departmentName": "Marketing & Growth",
+          "status": "Completed",
+          "progressPercent": 100,
+          "completionDate": "2026-10-12"
+        }
+      ],
+      "createdAt": "2026-09-25T10:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "trn_2",
+      "title": "Modern Cloud Architecture & High-Performance Microservices",
+      "description": "In-depth engineering workshop exploring container orchestration, event-driven systems, and database optimization for sub-millisecond query execution.",
+      "trainer": "CloudScale Consulting (Senior Architect Dave Miller)",
+      "startDate": "2026-10-20",
+      "endDate": "2026-11-05",
+      "deliveryMethod": "Hybrid",
+      "location": "HQ Conference Room Alpha & Zoom",
+      "meetingUrl": "https://meet.google.com/xyz-arch-train",
+      "createdBy": "usr_marcus",
+      "createdByName": "Marcus Vance",
+      "departmentIds": [
+        "dept_eng"
+      ],
+      "status": "Upcoming",
+      "participants": [
+        {
+          "employeeId": "emp_alex",
+          "employeeName": "Alex Rivera",
+          "departmentName": "Engineering",
+          "status": "Not Started",
+          "progressPercent": 0
+        },
+        {
+          "employeeId": "emp_priya",
+          "employeeName": "Priya Sharma",
+          "departmentName": "Engineering",
+          "status": "Not Started",
+          "progressPercent": 0
+        }
+      ],
+      "createdAt": "2026-10-10T14:00:00.000Z",
+      "updatedAt": "2026-10-18T18:53:05.778Z"
+    },
+    {
+      "_id": "trn_3",
+      "title": "Effective Product Leadership & Inclusive Management",
+      "description": "Executive leadership coaching program for managers and team leads on performance feedback, mentoring, and psychological safety in high-velocity teams.",
+      "trainer": "LeadForward Institute",
+      "startDate": "2026-09-10",
+      "endDate": "2026-10-05",
+      "deliveryMethod": "Online",
+      "createdBy": "usr_sarah",
+      "createdByName": "Sarah Jenkins",
+      "departmentIds": [
+        "dept_eng",
+        "dept_mkt",
+        "dept_hr"
+      ],
+      "status": "Completed",
+      "participants": [
+        {
+          "employeeId": "emp_marcus",
+          "employeeName": "Marcus Vance",
+          "departmentName": "Engineering",
+          "status": "Completed",
+          "progressPercent": 100,
+          "completionDate": "2026-10-04"
+        },
+        {
+          "employeeId": "emp_elena",
+          "employeeName": "Elena Rostova",
+          "departmentName": "Marketing & Growth",
+          "status": "Completed",
+          "progressPercent": 100,
+          "completionDate": "2026-10-05"
+        }
+      ],
+      "createdAt": "2026-08-20T10:00:00.000Z",
+      "updatedAt": "2026-10-05T18:00:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "notif_1",
+      "recipientId": "usr_marcus",
+      "type": "leave",
+      "title": "New Leave Request from Alex Rivera",
+      "message": "Alex Rivera has requested 1 day of Casual Leave starting on next week. Review required.",
+      "relatedResourceType": "Leave",
+      "relatedResourceId": "leave_alex_1",
+      "isRead": false,
+      "actionLink": "/leaves",
+      "createdAt": "2026-10-18T17:53:05.779Z"
+    },
+    {
+      "_id": "notif_2",
+      "recipientId": "usr_sarah",
+      "type": "leave",
+      "title": "Manager Approved Leave: Chloe Dupont",
+      "message": "Marcus Vance approved Chloe Dupont’s request for 2 days Annual Leave. Final HR decision required.",
+      "relatedResourceType": "Leave",
+      "relatedResourceId": "leave_chloe_1",
+      "isRead": false,
+      "actionLink": "/leaves",
+      "createdAt": "2026-10-18T06:53:05.779Z"
+    },
+    {
+      "_id": "notif_3",
+      "recipientId": "usr_alex",
+      "type": "training",
+      "title": "Training Assigned: Cloud Architecture",
+      "message": "You have been enrolled in \"Modern Cloud Architecture & High-Performance Microservices\" starting soon.",
+      "relatedResourceType": "Training",
+      "relatedResourceId": "trn_2",
+      "isRead": false,
+      "actionLink": "/trainings",
+      "createdAt": "2026-10-17T18:53:05.779Z"
+    },
+    {
+      "_id": "notif_4",
+      "recipientId": "usr_alex",
+      "type": "attendance",
+      "title": "Check-In Confirmed",
+      "message": "You successfully clocked in today at 8:55 AM (Present). Have a productive day!",
+      "relatedResourceType": "Attendance",
+      "relatedResourceId": "att_today_alex",
+      "isRead": true,
+      "actionLink": "/attendance",
+      "createdAt": "2026-10-18T08:55:00.000Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "_id": "aud_1792349610531_u6l61",
+      "actorId": "usr_sarah",
+      "actorName": "Sarah Jenkins",
+      "actorRole": "hr",
+      "action": "DEMO_LOGIN",
+      "resourceType": "User",
+      "resourceId": "usr_sarah",
+      "timestamp": "2026-10-18T18:53:30.531Z",
+      "metadata": {
+        "demoRole": "hr"
+      }
+    },
+    {
+      "_id": "aud_1",
+      "actorId": "usr_sarah",
+      "actorName": "Sarah Jenkins",
+      "actorRole": "hr",
+      "action": "ATTENDANCE_CORRECTION",
+      "resourceType": "Attendance",
+      "resourceId": "att_2d_alex",
+      "timestamp": "2026-10-16T18:00:00.000Z",
+      "metadata": {
+        "employeeId": "emp_alex",
+        "employeeCode": "EMP-101",
+        "date": "2026-10-16",
+        "reason": "Employee badge scanner misread on entry, confirmed by manager log.",
+        "oldStatus": "Incomplete",
+        "newStatus": "Present"
+      }
+    },
+    {
+      "_id": "aud_2",
+      "actorId": "usr_sarah",
+      "actorName": "Sarah Jenkins",
+      "actorRole": "hr",
+      "action": "LEAVE_HR_APPROVAL",
+      "resourceType": "Leave",
+      "resourceId": "leave_priya_1",
+      "timestamp": "2026-10-14T20:53:05.779Z",
+      "metadata": {
+        "employeeId": "emp_priya",
+        "duration": 2,
+        "type": "sick",
+        "comment": "Approved under regular sick policy."
+      }
+    },
+    {
+      "_id": "aud_3",
+      "actorId": "usr_sarah",
+      "actorName": "Sarah Jenkins",
+      "actorRole": "hr",
+      "action": "ANNOUNCEMENT_PUBLISH",
+      "resourceType": "Announcement",
+      "resourceId": "ann_1",
+      "timestamp": "2026-10-16T18:53:05.779Z",
+      "metadata": {
+        "title": "All-Hands Company Meeting & Q4 Strategy Kickoff",
+        "targetAudience": "All"
+      }
+    }
+  ]
+}
